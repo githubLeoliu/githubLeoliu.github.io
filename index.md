@@ -2,6 +2,8 @@
 
 This program is a demonstration of gimbal lock. A gimbal has 3 Degrees of Freedom. If the first term ring o the third term ring becomes parallel to the middle one, the gimbal lock and it loses a DoF. This can be avoided by knowing when gimbal lock will occur and take it to account when you do the rotations. Also by adding a fourth ring but it isn't convinient in robot simulation. 
 
+[Colab link](https://colab.research.google.com/github/KevinABuzaniGlez/KevinABuzaniGlez/blob/main/jup%20gimbal.ipynb)
+
 First we import the libraries. Then we set some variables that are going to be useful later in the code. After that we initialize the physics server as a GUI, and define the variable useFixedBase.
 
 
